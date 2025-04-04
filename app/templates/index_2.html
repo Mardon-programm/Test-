@@ -1,0 +1,1157 @@
+{% load static %}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi">
+  <title>Ош ZYAN маркетинг</title>
+  
+  <link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}">
+  
+  <link rel="stylesheet" href="{% static 'css/font-awesome-pro.css' %}">
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/scroll_button.css' %}">
+  <link rel="stylesheet" href="{% static 'css/spacing.css' %}">
+  <link rel="stylesheet" href="{% static 'css/plugin.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+</head>
+
+
+<body class="home_2">
+  <!--================================
+      ПРЕДВАРИТЕЛЬНЫЙ СТАРТ
+    =================================-->
+  <div class="preloader">
+    <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+      <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+    </svg>
+    <h5 class="preloader-text">Загрузка</h5>
+  </div>
+  <!--================================
+       ПРЕДВАРИТЕЛЬНЫЙ КОНЕЦ
+    =================================-->
+    <!--================================
+        КНОПКА ПРОКРУТКИ СТАРТ
+    =================================-->
+  <nav class="main_menu_2">
+    <span class="menu_2_icon">
+      <i class="fa-light fa-bars bar_icon-staggered bar_icon"></i>
+      <i class="fa-light fa-xmark close_icon"></i>
+    </span>
+
+    <a class="logo_2" href="index_2.html">
+      <img src="images/logo2.png" alt="ZAYAN" class="img-fluid w-100">
+    </a>
+
+    <ul id="list-example" class="list-group">
+      <li>
+        <a class="list-group-item list-group-item-action text_hover_animaiton" href="#banner">
+          <span><img src="svg/home-2.svg" alt="icon" class="img-fluid w-100 svg"></span>Главная
+        </a>
+      </li>
+      <li>
+        <a class="list-group-item list-group-item-action text_hover_animaiton" href="./index.html">
+          <span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" id="login-icon" class="img-fluid w-100 svg replaced-svg">
+              <path d="M12 2C8.69 2 6 4.69 6 8V10H5C3.9 10 3 10.9 3 12V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V12C21 10.9 20.1 10 19 10H18V8C18 4.69 15.31 2 12 2ZM12 4C14.21 4 16 5.79 16 8V10H8V8C8 5.79 9.79 4 12 4ZM12 14C11.45 14 11 14.45 11 15V17C11 17.55 11.45 18 12 18C12.55 18 13 17.55 13 17V15C13 14.45 12.55 14 12 14Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </span>
+          Войти
+        </a>
+        
+ </li>
+      <li>
+        <a class="list-group-item list-group-item-action text_hover_animaiton" href="#about">
+          <span><img src="svg/clipboard.svg" alt="icon" class="img-fluid w-100 svg"></span>О нас
+        </a>
+      </li>
+      <li>
+        <a class="list-group-item list-group-item-action text_hover_animaiton" href="#service">
+          <span><img src="svg/briefcase.svg" alt="icon" class="img-fluid w-100 svg"></span>
+          Услуги
+        </a>
+      </li>
+      <li>
+        <a class="list-group-item list-group-item-action text_hover_animaiton" href="#portfolio">
+          <span><img src="svg/messages-1.svg" alt="icon" class="img-fluid w-100 svg"></span>
+          Товары
+        </a>
+      </li>
+      <li>
+        <a class="list-group-item list-group-item-action text_hover_animaiton" href="#blog">
+          <span><img src="svg/quote-down-square.svg" alt="icon" class="img-fluid w-100 svg"></span>
+          Блог
+        </a>
+      </li>
+      <li>
+        <a class="list-group-item list-group-item-action text_hover_animaiton" href="#contact">
+          <span><img src="svg/user-square.svg" alt="icon" class="img-fluid w-100 svg"></span>
+          Контакты
+        </a>
+        <a class="list-group-item list-group-item-action text_hover_animaiton" href="https://oshtu.kg/">
+          <span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="img-fluid w-100 svg replaced-svg">
+              <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 12V21" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 12L4 9" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M20 9L12 12" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M4 15H20" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            
+          </span>
+          Наш университет
+        </a>
+        <a class="list-group-item list-group-item-action text_hover_animaiton" href="http://portal.oshtu.kg/#/login">
+          <span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="img-fluid w-100 svg replaced-svg">
+              <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 12V21" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 12L4 9" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M20 9L12 12" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M4 15H20" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          Портал UNIVER
+        </a>
+      </li>
+    </ul>
+  </nav>
+  
+  <!--================================
+        КНОПКА ПРОКРУТКИ КОНЕЦ
+    =================================-->
+    
+
+  <div class="main">
+    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example"
+      tabindex="0">
+      <!--================================
+                БАНЕР СТАРТ
+            =================================-->
+      <section id="banner" class="tf__banner_2 banner" style="background: url(images/bg/banner_bg2.png)">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-xxl-6 col-md-9 col-lg-7">
+              <div class="tf__banner_text">
+                <h1>
+                  Добро пожаловать
+                  <span class="cd-headline rotate-1">
+                    <span class="cd-words-wrapper">
+                      <b class="is-visible">маркетинг</b>
+                      <b>Ош ZYAN</b>
+                      <b>маркетинг</b>
+                    </span>
+                  </span>
+                </h1>
+                <p>
+                  "Ош ZYAN маркетинг" в Киргизии - это живописный рынок, насыщенный местным колоритом.
+                  Здесь торгуют разнообразными товарами, от местных продуктов до ремесел. 
+                  Рынок становится центром обмена культурными традициями, где каждый столик рассказывает свою уникальную историю, 
+                  создавая неповторимую атмосферу этого региона.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--================================
+                БАНЕР  КОНЕЦ
+            =================================-->
+ 
+      <!--================================
+                О нас 1 START
+            =================================-->
+      <section id="about" class="tf__about_2 pt_130 xs_pt_80">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-9 col-lg-9">
+              <div class="tf__section_heading mb_40">
+                <h5 class="has-animation">О нас</h5>
+                <h2 class="has-animation">
+                  Подробнее о нас 
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-between">
+            <div class="col-xl-6 col-lg-6">
+              <div class="tf__about_text_2">
+                <ul>
+                  <li>
+                    <div class="top fade_bottom" data-trigerId="about">
+                      <div class="img">
+                        <img src="images/icon/about_1.png" alt="about" class="img-fluid w-100">
+                      </div>
+                      <div>
+                        <h3>Наши Омбиций</h3>
+                        <p>
+                          Мы стремимся к успеху и росту, готовы преодолевать преграды. 
+                          В поиске знаний, инноваций и ответственности перед обществом мы видим смысл наших амбиций. 
+                          Наша команда объединяет индивидуальные устремления, вдохновляя друг друга на достижение выдающихся результатов.
+
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="top fade_bottom" data-trigerId="about">
+                      <div class="img">
+                        <img src="images/icon/about_2.png" alt="about" class="img-fluid w-100">
+                      </div>
+                      <div>
+                        <h3>Наши цели</h3>
+                        <p>
+                          Мы нацелены на постоянный рост и профессиональное совершенство. 
+                          Наши цели включают в себя инновации, творчество и социальную ответственность. 
+                          Каждый из нас стремится к лидерству в своей области, создавая положительные изменения в обществе.
+                           Наши цели — не просто ориентиры, но источник вдохновения, 
+                           объединяющий нашу команду в стремлении к успешному будущему.
+
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6">
+              <div class="tf__about_img tf__about_img_2">
+                <img src="images/about_img_3.jpg" alt="ZYAN" class="img-fluid w-100">
+                <div class="tf__about_img_text">
+                  <i class="fa-sharp fa-solid fa-award"></i>
+                  <h4>13+ <span>Лет опыт в сфере маркетинга</span></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--================================
+                О нас 1 END
+            =================================-->
+            <!--================================
+        О НАС 2 START
+    =================================-->
+    <section class="tf__about pt_140 xs_pt_80" id="about">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xxl-7 col-lg-6 col-xl-6">
+            <div class="tf__section_heading pb_80 xs_pb_50">
+              <h5 class="has-animation">О нас</h5>
+              <h2 class="has-animation">
+                Эксперты по Привлечению Ваших Клиентов
+              </h2>
+            </div>
+            <div class="tf__about_text">
+              <p>
+                Мы – команда креативных и стратегически мыслящих специалистов, увлеченных маркетингом. Наша миссия – помочь вам достигать новых высот и превосходить ожидания ваших клиентов. Мы работаем с клиентами из различных отраслей, предлагая индивидуальные решения, основанные на глубоких аналитических исследованиях и современных тенденциях.
+              </p>
+            </div>
+          </div>
+          <div class="col-xxl-4 col-lg-6 col-xl-6">
+            <div class="tf__about_img fade_right" data-trigerId="about">
+              <img
+                src="images/about_img.jpg"
+                alt="ZYAN"
+                class="img-fluid w-100"
+              />
+              <div class="tf__about_img_text">
+                <i class="fas fa-chart-pie-alt"></i>
+                <div class="tf__about_content">
+                  <h4>Закиров Мухаммед</h4>
+                  <p>Руководитель</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        О НАС 2 END
+    =================================-->
+     <!--============================
+    НАЧАЛО СЧЁТЧИКОВ
+==============================-->
+<section class="tf__counter tf__counter_2 pt_190" id="portfolio">
+  <div class="container">
+    <div class="row justify-content-between">
+      <!-- Счётчик участников команды -->
+      <div class="col-xxl-3 col-md-6 col-xl-3">
+        <div
+          class="tf__single_counter tf__single_counter_2"
+          data-animation="fade-left"
+          data-offset="100"
+          style="font-size: 36px;" <!-- Увеличение размера шрифта -->
+        >
+          <h5 class="tf__counter_icon tf__counter_icon_2" style="font-size: 100px;"> <!-- Увеличение размера иконки -->
+            <i class="fas fa-users-cog" aria-hidden="true"></i> <!-- Иконка -->
+          </h5>
+          <h4><span class="counter" style="font-size: 60px;">200</span>+</h4> <!-- Увеличение размера цифр -->
+          <p>Участников команды</p>
+        </div>
+      </div>
+
+      <!-- Счётчик полученных наград -->
+      <div class="col-xxl-3 col-md-6 col-xl-3">
+        <div
+          class="tf__single_counter tf__single_counter_2"
+          data-animation="fade-left"
+          data-offset="100"
+          data-delay=".25"
+          style="font-size: 36px;" <!-- Увеличение размера шрифта -->
+        >
+          <h5 class="tf__counter_icon tf__counter_icon_2" style="font-size: 100px;"> <!-- Увеличение размера иконки -->
+            <i class="fas fa-award" aria-hidden="true"></i> <!-- Иконка -->
+          </h5>
+          <h4><span class="counter" style="font-size: 60px;">20</span>+</h4> <!-- Увеличение размера цифр -->
+          <p>Полученных наград</p>
+        </div>
+      </div>
+
+      <!-- Счётчик завершённых проектов -->
+      <div class="col-xxl-3 col-md-6 col-xl-3">
+        <div
+          class="tf__single_counter tf__single_counter_2"
+          data-animation="fade-left"
+          data-offset="100"
+          data-delay=".5"
+          style="font-size: 36px;" <!-- Увеличение размера шрифта -->
+        >
+          <h5 class="tf__counter_icon tf__counter_icon_2" style="font-size: 100px;"> <!-- Увеличение размера иконки -->
+            <i class="far fa-file-certificate" aria-hidden="true"></i> <!-- Иконка -->
+          </h5>
+          <h4><span class="counter" style="font-size: 60px;">10</span>k+</h4> <!-- Увеличение размера цифр -->
+          <p>Завершённых проектов</p>
+        </div>
+      </div>
+
+      <!-- Счётчик отзывов клиентов -->
+      <div class="col-xxl-3 col-md-6 col-xl-3">
+        <div
+          class="tf__single_counter tf__single_counter_2"
+          data-animation="fade-left"
+          data-offset="100"
+          data-delay=".75"
+          style="font-size: 36px;" <!-- Увеличение размера шрифта -->
+        >
+          <h5 class="tf__counter_icon tf__counter_icon_2" style="font-size: 100px;"> <!-- Увеличение размера иконки -->
+            <i class="fas fa-users-crown" aria-hidden="true"></i> <!-- Иконка -->
+          </h5>
+          <h4><span class="counter" style="font-size: 60px;">900</span>+</h4> <!-- Увеличение размера цифр -->
+          <p>Отзывов клиентов</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--============================
+    КОНЕЦ СЧЁТЧИКОВ
+==============================-->
+<!--============================
+    НАША ПОМОЩЬ НАЧАЛО
+==============================-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serving Our Clients</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #202A44;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+        .header {
+            font-size: 72px; /* Увеличен размер шрифта */
+            margin-bottom: 40px;
+        }
+        .icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .icon-item {
+            flex: 1 1 calc(20% - 40px);
+            min-width: 120px;
+            margin: 10px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .icon-item i {
+            font-size: 40px;
+            margin-bottom: 10px;
+            transition: color 0.3s;
+        }
+        .icon-item p {
+            margin: 0;
+        }
+        .icon-item:hover {
+            background-color: #1A73E8;
+        }
+        .icon-item:hover i {
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Маркетинг поможет везде и в любом случае</div>
+        <div class="icons">
+            <div class="icon-item">
+                <i class="fas fa-microphone"></i>
+                <p>Музыка</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-piggy-bank"></i>
+                <p>Финанс</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-flask"></i>
+                <p>Лабараториях</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-briefcase"></i>
+                <p>Агенство</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-utensils"></i>
+                <p>Ресторан и Кафе</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-road"></i>
+                <p>На дороге</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-cow"></i>
+                <p>В скотовотсве</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-gem"></i>
+                <p>В банке</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-bolt"></i>
+                <p>Энергию</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-seedling"></i>
+                <p>Сельское хозяйство</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!--============================
+    НАША ПОМОЩЬ КОНЕЦ
+==============================-->
+
+
+             <!--================================
+                НАШЕ НАВЫКИ И СТРАТЕГИИ START
+            =================================-->
+        <section
+        id="skills"
+        class="tf__skills_2 pt_115 xs_pt_75 pb_120 xs_pb_80 mt_165 xs_mt_80"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-9 col-lg-9 m-auto">
+              <div class="tf__section_heading mb_30">
+                <h5 class="has-animation">НАША СТРАТЕГИЯ</h5>
+                <h2 class="has-animation">
+                  Основными элементами маркетинговых стратегий
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xxl-8 col-xl-10 m-auto">
+              <ul class="nav nav-pills mb_30" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                  tabindex="0"
+                >
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                      <div
+                        class="tf__single_skill_2 fade_bottom"
+                        data-trigerId="skills"
+                      >
+                        <h3>Маркетинг</h3>
+                        <h2>Понимание Целевой Аудитории</h2>
+                        <h4>Продвижение товаров и услуг</h4>
+                        <p>
+                          Понимание целевой аудитории является ключом к успешному маркетингу. Демографический анализ позволяет узнать основные характеристики ваших клиентов, такие как возраст, пол, доход и образование. Психографический анализ помогает понять их образ жизни, интересы и ценности, а поведенческий анализ исследует их покупательские привычки и предпочтения. Эти данные позволяют создавать маркетинговые стратегии, которые точно соответствуют потребностям и ожиданиям вашей аудитории, обеспечивая более эффективное взаимодействие и повышение уровня удовлетворенности клиентов.
+                        </p>
+                        <div class="tf__team_skills_bar_single">
+                          <p>Оценки нашей компании</p>
+                          <div id="bar1" class="barfiller">
+                            <div class="tipWrap">
+                              <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="80"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                      <div
+                        class="tf__single_skill_2 fade_bottom"
+                        data-trigerId="skills"
+                      >
+                        <h3>Маркетинг</h3>
+                        <h2>Цифровой Маркетинг</h2>
+                        <h4>Продвижение товаров и услуг</h4>
+                        <p>
+                          Цифровой маркетинг включает использование интернет-ресурсов для продвижения вашего бизнеса и охвата широкой аудитории. Основные элементы цифрового маркетинга включают SEO, направленное на улучшение видимости вашего сайта в поисковых системах, SMM, которое использует социальные сети для продвижения бренда и взаимодействия с клиентами, и контент-маркетинг, создающий ценные и релевантные материалы для привлечения аудитории. Email-маркетинг позволяет поддерживать персонализированное общение с клиентами через рассылки, а контекстная реклама помогает быстро привлечь внимание и увеличить конверсию. Цифровой маркетинг предоставляет возможность точно измерять результаты и вносить изменения в реальном времени для достижения наилучших результатов.
+                        </p>
+                        <div class="tf__team_skills_bar_single">
+                          <p>Оценки нашей компании</p>
+                          <div id="bar2" class="barfiller">
+                            <div class="tipWrap">
+                              <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="90"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                      <div
+                        class="tf__single_skill_2 fade_bottom"
+                        data-trigerId="skills"
+                      >
+                        <h3>Маркетинг</h3>
+                        <h2>Брендинг и Визуальная Идентичность</h2>
+                        <h4>Продвижение товаров и услуг</h4>
+                        <p>
+                          Брендинг – это процесс создания уникального образа и репутации вашего бизнеса. Он включает разработку логотипа и фирменного стиля, которые делают ваш бренд узнаваемым, а также формирование ключевых сообщений и ценностей, которые вы хотите донести до своей аудитории. Важной частью брендинга является определение голос и тон вашего бренда, что помогает установить эмоциональную связь с клиентами и создать долгосрочную лояльность. Сильный бренд выделяет вас среди конкурентов и помогает сформировать положительное восприятие вашего бизнеса.
+                        </p>
+                        <div class="tf__team_skills_bar_single">
+                          <p>Оценки нашей компании</p>
+                          <div id="bar3" class="barfiller">
+                            <div class="tipWrap">
+                              <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="75"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                      <div
+                        class="tf__single_skill_2 fade_bottom"
+                        data-trigerId="skills"
+                      >
+                        <h3>Маркетинг</h3>
+                        <h2>Анализ и Оценка Эффективности</h2>
+                        <h4>Продвижение товаров и услуг</h4>
+                        <p>
+                          Анализ и оценка эффективности маркетинговых усилий являются важными компонентами для постоянного улучшения и адаптации стратегий. Установление ключевых показателей эффективности (KPI) помогает измерять успех маркетинговых кампаний. Использование аналитических инструментов, таких как Google Analytics, позволяет собирать и анализировать данные о поведении пользователей. Анализ результатов и проведение A/B тестирования помогают определить наиболее эффективные подходы и вносить корректировки в стратегии на основе реальных данных. Это позволяет оптимизировать маркетинговые усилия и обеспечивать устойчивый рост и успех вашего бизнеса.
+                        </p>
+                        <div class="tf__team_skills_bar_single">
+                          <p>Оценки нашей компании</p>
+                          <div id="bar4" class="barfiller">
+                            <div class="tipWrap">
+                              <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="70"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                  tabindex="0"
+                >
+                  </div>
+               </section>
+      <!--================================
+              НАШЕ НАВЫКИ И СТРАТЕГИИ END
+          =================================-->
+
+      <!--================================
+                СЕРВИС 2 START
+            =================================-->
+      <section id="service" class="tf__service_2 pt_130 xs_pt_80 animation">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-9 col-lg-9 m-auto">
+              <div class="tf__section_heading mb_40">
+                <h5 class="has-animation">Услуги</h5>
+                <h2 class="has-animation">
+                  Узнайте о наших услугах
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-4 col-md-6 col-lg-4">
+              <div class="tf__single_service_2 fade_left" data-trigerId="service">
+                <div class="text">
+                  <span>
+                    <img src="svg/mobile-programming.svg" alt="service" class="img-fluid w-100 svg">
+                    <i class="icon-app-development"></i>
+                  </span>
+                  <h3>Быстрое Обучение</h3>
+                  <p>
+                    "Быстрое обучение" - наше ведущее направление.
+                     Мы предоставляем эффективные и точные знания, позволяющие быстро достигать поставленных целей.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-lg-4">
+              <div class="tf__single_service_2 fade_left active" data-trigerId="service">
+                <div class="text">
+                  <span>
+                    <img src="svg/pen-tool-2.svg" alt="service" class="img-fluid w-100 svg">
+                  </span>
+                  <h3>Гарантия качественного обучения</h3>
+                  <p>
+                    Мы предоставляем надежные гарантии отличного обучения. 
+                    Наш подход основан на качественных методах обучения, что обеспечивает полноценное освоение материала.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-lg-4">
+              <div class="tf__single_service_2 fade_left" data-trigerId="service">
+                <div class="text">
+                  <span>
+                    <img src="svg/mobile.svg" alt="service" class="img-fluid w-100 svg">
+                  </span>
+                  <h3>Успех долгосрочной карьеры</h3>
+                  <p>
+                    
+"Обеспечиваем долгосрочный успех в карьере. Предоставляем ключевые навыки и знания для стабильного и продуктивного профессионального развития."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--================================
+                Сервис 2 END
+            =================================-->
+            <!--================================
+        ОТЗЫВЫ СОТРУДНИКОВ START
+    =================================-->
+    <section class="tf__testimonial pt_115 xs_pt_75">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 m-auto mb_30">
+            <div class="tf__section_heading">
+              <h5 class="has-animation">Отзывы наших сотрудников</h5>
+              <h2 class="has-animation">Наши сотрудники</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row testi_slider">
+          <div class="col-xl-6">
+            <div class="tf__single_testimonial">
+              <div class="img">
+                <img
+                  src="images/testimonial/1.jpg"
+                  alt="clients"
+                  class="img-fluid w-100"
+                />
+              </div>
+              <p class="rating">
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+              </p>
+              <h3>Закиров Мухаммед</h3>
+              <h5>Руководитель</h5>
+              <p class="description">
+                Работа в нашей компании для меня – это не просто работа, а возможность постоянно развиваться и учиться новому. Я чувствую поддержку команды и руководства во всех начинаниях. Здесь царит атмосфера сотрудничества и креативности, что позволяет нам реализовывать самые смелые проекты. Возможность работать с новейшими технологиями и инструментами делает каждый день интересным и насыщенным.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="tf__single_testimonial">
+              <div class="img">
+                <img
+                  src="images/testimonial/2.jpg"
+                  alt="clients"
+                  class="img-fluid w-100"
+                />
+              </div>
+              <p class="rating">
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+              </p>
+              <h3>Табакалов Муса</h3>
+              <h5>Ментор</h5>
+              <p class="description">
+                Мне нравится работать в этой компании, потому что здесь я имею возможность реализовывать самые смелые идеи и проекты. Мы постоянно обучаемся и совершенствуем свои навыки, что помогает оставаться конкурентоспособными на рынке. Также очень радует атмосфера в коллективе – здесь всегда можно рассчитывать на поддержку и помощь коллег
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="tf__single_testimonial">
+              <div class="img">
+                <img
+                  src="images/testimonial/3.jpg"
+                  alt="clients"
+                  class="img-fluid w-100"
+                />
+              </div>
+              <p class="rating">
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+              </p>
+              <h3>Абдыкадыров Сыймык</h3>
+              <h5>Преподователь</h5>
+              <p class="description">
+                Работа в нашей компании – это постоянное движение вперед. Мне нравится, что мы активно используем передовые технологии и инструменты для создания качественного контента. Руководство всегда поддерживает инициативы сотрудников, а гибкий график работы позволяет балансировать между профессиональной и личной жизнью. Я горжусь тем, что работаю в такой динамичной и инновационной компании.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        ОТЗЫВЫ СОТРУДНИКОВ END
+    =================================-->
+      <!--================================
+                ТОВАРЫ  START
+            =================================-->
+      <section id="portfolio" class="tf__portfolio tf__portfolio_2 mt_120 xs_mt_80">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-10 col-lg-9 mb_30">
+              <div class="tf__section_heading">
+                <h5 class="has-animation">наши товары</h5>
+                <h2 class="has-animation">
+                  наши товары
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-6 col-sm-6">
+              <div class="tf__portfolio_item">
+                <img src="images/portfolio/5.png" alt="portfolio" class="img-fluid w-100">
+                <div class="text">
+                  <h4>Стулия черного цвета</h4>
+                  <p> 4000 сом</p>
+                </div>
+              </div>
+              <div class="mfp-fade mfp-hide" id="details-popup">
+                <div class="content">
+                  <div class="img">
+                    <img src="images/portfolio/5.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-sm-6">
+              <div class="tf__portfolio_item">
+                <img src="images/portfolio/6.png" alt="portfolio" class="img-fluid w-100">
+                <div class="text">
+                  <h4>Macbook</h4>
+                  <p> 189000 сом </p>
+                </div>
+              </div>
+              <div class="mfp-fade mfp-hide" id="details-popup">
+                <div class="content">
+                  <div class="img">
+                    <img src="images/portfolio/6.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-sm-6">
+              <div class="tf__portfolio_item">
+                <img src="images/portfolio/7.png" alt="portfolio" class="img-fluid w-100">
+                <div class="text">
+                  <h4>Стол черного цвета</h4>
+                  <p> 7000 сом </p>
+                </div>
+              </div>
+              <div class="mfp-fade mfp-hide" id="details-popup">
+                <div class="content">
+                  <div class="img">
+                    <img src="images/portfolio/7.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-sm-6">
+              <div class="tf__portfolio_item">
+                <img src="images/portfolio/8.png" alt="portfolio" class="img-fluid w-100">
+                <div class="text">
+                  <h4>Рабочий стол</h4>
+                  <p> 15000 сом </p>
+                </div>
+              </div>
+              <div class="mfp-fade mfp-hide" id="details-popup">
+                <div class="content">
+                  <div class="img">
+                    <img src="images/portfolio/8.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-sm-6">
+              <div class="tf__portfolio_item">
+                <img src="images/portfolio/9.png" alt="portfolio" class="img-fluid w-100">
+                <div class="text">
+                  <h4>Одно комнатный квартира</h4>
+                  <p> 3 828000 сом </p>
+                </div>
+              </div>
+              <div class="mfp-fade mfp-hide" id="details-popup">
+                <div class="content">
+                  <div class="img">
+                    <img src="images/portfolio/9.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      <!--================================
+                ТОВАР  END
+                БЛОГ  START
+            =================================-->
+            <section id="blog" class="tf__blog_2 pt_120 xs_pt_80 pb_120 xs_pb_80">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-8 m-auto mb_30">
+                    <div class="tf__section_heading">
+                      <h5 class="has-animation">Блог</h5>
+                      <h2 class="has-animation">что такое Маркетинг</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="row animation">
+                  <div class="col-xl-4 col-md-6">
+                    <div class="tf__slingle_blog_2 fade_left" data-trigerId="blog">
+                      <div class="tf__blog_img_2">
+                        <img src="images/blog/4.jpg" alt="blog" class="img-fluid w-100">
+                        <span>10 June</span>
+                      </div>
+                      <div class="tf__blog_text_2">
+                        <div>Кратко о маркетинге</div>
+                        <p>
+                          "Маркетинг — искусство привлечения внимания и создания ценности. 
+                          Эффективные стратегии, креативные подходы и понимание потребностей клиентов — ключ к успешному продвижению продуктов или услуг на рынке."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-md-6">
+                    <div class="tf__slingle_blog_2 fade_left" data-trigerId="blog">
+                      <div class="tf__blog_img_2">
+                        <img src="images/blog/5.jpg" alt="blog" class="img-fluid w-100">
+                        <span>10 June</span>
+                      </div>
+                      <div class="tf__blog_text_2">
+                        <div>Функция маркетинга</div>
+                        <p>
+                          "Функция маркетинга заключается в исследовании, планировании и реализации стратегий для успешного взаимодействия с целевой аудиторией. 
+                          Она включает в себя создание ценности, продвижение продуктов, управление брендом и удовлетворение потребностей клиентов, 
+                          направленные на достижение целей компании."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-md-6">
+                    <div class="tf__slingle_blog_2 fade_left" data-trigerId="blog">
+                      <div class="tf__blog_img_2">
+                        <img src="images/blog/6.jpg" alt="blog" class="img-fluid w-100">
+                        <span>10 June</span>
+                      </div>
+                      <div class="tf__blog_text_2">
+                        <div>Разновидности маркетинга</div>
+                        <p>
+                          "Маркетинг представляет разнообразные разновидности, включая стратегический, цифровой, контент-маркетинг, маркетинг в социальных сетях и другие.
+                           Каждая разновидность направлена на уникальные аспекты привлечения, удержания клиентов и продвижения продуктов в соответствии с современными требованиями рынка."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            
+      <!--================================
+                БЛОГ  END
+            =================================-->
+
+      <!--================================
+                Контакт  START
+            =================================-->
+      <section id="contact" class="tf__contact_2 pt_95 xs_pt_45">
+        <div class="container">
+          <div class="row animation">
+            <div class="col-xl-4 col-md-6 col-lg-4">
+              <div class="tf__contact_2_text fade_left" data-trigerId="contact">
+                <span>
+                  <img src="svg/voice_phone.svg" alt="contact" class="img-fluid w-100 svg">
+                </span>
+                <h3>Номер телефона</h3>
+                <p>
+                  Если какие либо вопросы свяжитесь с этим номером
+                </p>
+                <a href="callto:12345664746846">+996 551 17 76 77</a>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-lg-4">
+              <div class="tf__contact_2_text fade_left" data-trigerId="contact">
+                <span>
+                  <img src="svg/map_issue.svg" alt="contact" class="img-fluid w-100 svg">
+                </span>
+                <h3>Локация</h3>
+                <p>
+                  мы находимся по адресу г. Ош ул. Исанова 81
+
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-lg-4">
+              <div class="tf__contact_2_text fade_left" data-trigerId="contact">
+                <span>
+                  <img src="svg/send_mail.svg" alt="contact" class="img-fluid w-100 svg">
+                </span>
+                <h3>Рабочий график</h3>
+                <p>
+                  каждый день с 8:00 - 22:00
+
+                </p>
+                <a href="mailto:hfavouriteemail@gmail.com">uusmanov67@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--================================
+                Контакт  END
+            =================================-->
+              <!--================================
+                КОНТАКТ 2 START
+            =================================-->
+        <section id="contact" class="tf__contact_2 pt_95 xs_pt_45">
+          <div class="container">
+            <div class="row animation">
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                <div>
+                
+                
+              </div>
+            </div>
+            <div class="contact_form_2">
+              <form>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <input type="text" placeholder="Ваше имя">
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="text" placeholder="Ваше Фамилия" >
+                  </div>
+                  <div class="col-lg-12">
+                    <input type="email" placeholder="Email" >
+                  </div>
+                  <div class="col-12">
+                    <textarea
+                      rows="5"
+                      placeholder="О вас"
+                    ></textarea>
+                  </div>
+                </div>
+                <button type="submit">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <!--================================
+                КОНТАКТ 2 END
+            =================================-->
+
+      <!--================================
+                НИЖНИЙ ФОТЕР  START
+            =================================-->
+      <div class="footer_2_copyright_area mt_120 xs_mt_80">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="tf__footer_copyright">
+                <ul>
+                  <li>
+                    <a href="#" class="text_hover_animaiton">Trams & Condition</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text_hover_animaiton">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text_hover_animaiton">Sitemap</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--================================
+                НИЖНИЙ ФОТЕР  END
+            =================================-->
+
+      <!--================================
+                КНОПКА ПРОКРУТКИ START
+            =================================-->
+      <div class="progress active">
+        <svg class="progress-svg" width="100%" height="100%" viewBox="-1 -1 102 102">
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+      </div>
+      <!--================================
+                КНОПКА ПРОКРУТКИ END
+            =================================-->
+      <!--================================
+        КУРСОР START
+    =================================-->
+      <div id="magic-cursor">
+        <div id="ball"></div>
+      </div>
+      <!--================================
+        КУРСОР END
+    =================================-->
+    </div>
+  </div>
+
+  <script src="js/plugin.js"></script>
+  <!--scroll button js-->
+  <script src="js/scroll_button.js"></script>
+  <!--sticky sidebar js-->
+  <script src="js/sticky_sidebar.js"></script>
+  <!-- Gsap -->
+  <script src="js/animation.js"></script>
+  <!--main/custom js-->
+  <script src="js/main.js"></script>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ош ZYAN маркетинг</title>
+      <link rel="icon" type="image/png" href="images/favicon.png">
+      <link rel="stylesheet" href="css/font-awesome-pro.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/scroll_button.css">
+      <link rel="stylesheet" href="css/spacing.css">
+      <link rel="stylesheet" href="css/plugin.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <style>
+          .welcome-popup {
+              position: fixed;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%) scale(0);
+              background: white;
+              padding: 40px;
+              border-radius: 10px;
+              box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+              text-align: center;
+              width: 300px;
+              opacity: 0;
+              transition: transform 0.5s, opacity 0.5s;
+              z-index: 9999; /* Ensure the popup is above other content */
+          }
+          .welcome-popup.show {
+              transform: translate(-50%, -50%) scale(1);
+              opacity: 1;
+          }
+          .welcome-popup h1 {
+              margin-bottom: 20px;
+              color: #000;
+              font-size: 36px;
+          }
+          .welcome-popup p {
+              font-size: 24px;
+              color: #000;
+          }
+          .welcome-popup #username {
+              color: #000; /* Ensure the username is also black */
+          }
+      </style>
+  </head>
+  <body class="home_2">
+  
+      <!-- Приветственное всплывающее окно -->
+      <div class="welcome-popup" id="welcomePopup">
+          <h1>Добро пожаловать!</h1>
+          <p id="welcomeMessage"> <span id="username"></span></p>
+      </div>
+  
+      <script>
+          document.addEventListener('DOMContentLoaded', function() {
+              const username = localStorage.getItem('username');
+              if (username) {
+                  document.getElementById('username').textContent = username;
+              } else {
+                  document.getElementById('welcomeMessage').textContent = "Здравствуй!";
+              }
+  
+              // Показывать всплывающее окно приветствия после небольшой задержки
+              setTimeout(function() {
+                  const popup = document.getElementById('welcomePopup');
+                  popup.classList.add('show');
+                  
+                  // Скрыть всплывающее окно приветствия через 3 секунды
+                  setTimeout(function() {
+                      popup.classList.remove('show');
+                  }, 3000); // Продолжительность видимости всплывающего окна
+              }, 500); // Задержку отображения всплывающего окна можно настроить.
+  
+              // При необходимости очистите локальное хранилище после использования.
+              localStorage.removeItem('username');
+          });
+      </script>
+    </body>
+  </html>
+  
+</body>
+
+</html>

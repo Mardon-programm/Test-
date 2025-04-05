@@ -2724,71 +2724,54 @@ main {
 /*==============================
   PRELOADER START
 ===============================*/
+body {
+  overflow-y: hidden;
+}
 
-body.loaded {
-  overflow: hidden !important;
-  height: 100% !important;
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
 }
 
 .preloader {
   position: fixed;
-  z-index: 10;
-  height: 100vh;
-  width: 100%;
+  top: 0;
   left: 0;
-  top: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
   display: flex;
-  overflow: hidden;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+  flex-direction: column;
   justify-content: center;
-  background: transparent;
-  z-index: 99999999999999;
+  align-items: center;
+  animation: none;
 }
 
-.preloader svg {
-  position: absolute;
-  top: 0;
-  width: 100vw;
-  height: 110vh;
-  fill: #1a1a1a;
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  border-top-color: #000;
+  border-radius: 50%; 
+  animation: none;
 }
 
-h5.preloader-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 100px;
+.preloader-text {
+  margin-top: 20px;
+  font-size: 1.5rem;
   color: #333;
 }
 
-@media (max-width: 1040px) {
-  h5.preloader-text {
-    font-size: 60px;
-  }
+.preloader.fade {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+  pointer-events: none;
+  animation: none;
 }
-h5.preloader-text::after {
-  content: "Loading";
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: var(--colorPrimary);
-  animation: move 2s infinite alternate;
-}
-@keyframes move {
-  from {
-    clip-path: circle(50px at 0% 50%);
-  }
-  to {
-    clip-path: circle(50px at 100% 50%);
-  }
-}
+
 /*==============================
   PRELOADER END
 ===============================*/
@@ -3031,4 +3014,34 @@ h5.preloader-text::after {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+
+
+#modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modalContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+#closeModalBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
 }

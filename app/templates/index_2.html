@@ -7,13 +7,13 @@
   
   <link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}">
   
-  <link rel="stylesheet" href="{% static 'css/font-awesome-pro.css' %}">
-  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-  <link rel="stylesheet" href="{% static 'css/scroll_button.css' %}">
-  <link rel="stylesheet" href="{% static 'css/spacing.css' %}">
-  <link rel="stylesheet" href="{% static 'css/plugin.css' %}">
-  <link rel="stylesheet" href="{% static 'css/style.css' %}">
-  <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+  <link rel="stylesheet" href="{% static 'app/css/font-awesome-pro.css' %}">
+  <link rel="stylesheet" href="{% static 'app/css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'app/css/scroll_button.css' %}">
+  <link rel="stylesheet" href="{% static 'app/css/spacing.css' %}">
+  <link rel="stylesheet" href="{% static 'app/css/plugin.css' %}">
+  <link rel="stylesheet" href="{% static 'app/css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'app/css/responsive.css' %}">
 </head>
 
 
@@ -21,7 +21,7 @@
   <!--================================
       ПРЕДВАРИТЕЛЬНЫЙ СТАРТ
     =================================-->
-  <div class="preloader">
+  <div id="preloader" class="preloader">
     <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
       <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
     </svg>
@@ -39,18 +39,18 @@
       <i class="fa-light fa-xmark close_icon"></i>
     </span>
 
-    <a class="logo_2" href="index_2.html">
-      <img src="images/logo2.png" alt="ZAYAN" class="img-fluid w-100">
+    <a class="logo_2" href=" ">
+      <img src="% static 'app/images/logo2.png'%" alt="ZAYAN" class="img-fluid w-100">
     </a>
 
     <ul id="list-example" class="list-group">
       <li>
         <a class="list-group-item list-group-item-action text_hover_animaiton" href="#banner">
-          <span><img src="svg/home-2.svg" alt="icon" class="img-fluid w-100 svg"></span>Главная
+          <span><img src="% static 'app/svg/home-2.svg'%" alt="icon" class="img-fluid w-100 svg"></span>Главная
         </a>
       </li>
       <li>
-        <a class="list-group-item list-group-item-action text_hover_animaiton" href="./index.html">
+        <a class="list-group-item list-group-item-action text_hover_animaiton" href="#contact">
           <span>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" id="login-icon" class="img-fluid w-100 svg replaced-svg">
               <path d="M12 2C8.69 2 6 4.69 6 8V10H5C3.9 10 3 10.9 3 12V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V12C21 10.9 20.1 10 19 10H18V8C18 4.69 15.31 2 12 2ZM12 4C14.21 4 16 5.79 16 8V10H8V8C8 5.79 9.79 4 12 4ZM12 14C11.45 14 11 14.45 11 15V17C11 17.55 11.45 18 12 18C12.55 18 13 17.55 13 17V15C13 14.45 12.55 14 12 14Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -58,34 +58,35 @@
           </span>
           Войти
         </a>
+      
         
  </li>
       <li>
         <a class="list-group-item list-group-item-action text_hover_animaiton" href="#about">
-          <span><img src="svg/clipboard.svg" alt="icon" class="img-fluid w-100 svg"></span>О нас
+          <span><img src="% static 'app/svg/clipboard.svg'%" alt="icon" class="img-fluid w-100 svg"></span>О нас
         </a>
       </li>
       <li>
         <a class="list-group-item list-group-item-action text_hover_animaiton" href="#service">
-          <span><img src="svg/briefcase.svg" alt="icon" class="img-fluid w-100 svg"></span>
+          <span><img src="% static 'app/svg/briefcase.svg'%" alt="icon" class="img-fluid w-100 svg"></span>
           Услуги
         </a>
       </li>
       <li>
         <a class="list-group-item list-group-item-action text_hover_animaiton" href="#portfolio">
-          <span><img src="svg/messages-1.svg" alt="icon" class="img-fluid w-100 svg"></span>
+          <span><img src="% static 'app/svg/messages-1.svg'%" alt="icon" class="img-fluid w-100 svg"></span>
           Товары
         </a>
       </li>
       <li>
         <a class="list-group-item list-group-item-action text_hover_animaiton" href="#blog">
-          <span><img src="svg/quote-down-square.svg" alt="icon" class="img-fluid w-100 svg"></span>
+          <span><img src="% static 'app/svg/quote-down-square.svg'%" alt="icon" class="img-fluid w-100 svg"></span>
           Блог
         </a>
       </li>
       <li>
         <a class="list-group-item list-group-item-action text_hover_animaiton" href="#contact">
-          <span><img src="svg/user-square.svg" alt="icon" class="img-fluid w-100 svg"></span>
+          <span><img src="% static 'app/svg/user-square.svg'%" alt="icon" class="img-fluid w-100 svg"></span>
           Контакты
         </a>
         <a class="list-group-item list-group-item-action text_hover_animaiton" href="https://oshtu.kg/">
@@ -180,7 +181,7 @@
                   <li>
                     <div class="top fade_bottom" data-trigerId="about">
                       <div class="img">
-                        <img src="images/icon/about_1.png" alt="about" class="img-fluid w-100">
+                        <img src="5 static 'app/images/icon/about_1.png'%" alt="about" class="img-fluid w-100">
                       </div>
                       <div>
                         <h3>Наши Омбиций</h3>
@@ -196,7 +197,7 @@
                   <li>
                     <div class="top fade_bottom" data-trigerId="about">
                       <div class="img">
-                        <img src="images/icon/about_2.png" alt="about" class="img-fluid w-100">
+                        <img src="5 static'app/images/icon/about_2.png'%" alt="about" class="img-fluid w-100">
                       </div>
                       <div>
                         <h3>Наши цели</h3>
@@ -216,7 +217,7 @@
             </div>
             <div class="col-xl-6 col-lg-6">
               <div class="tf__about_img tf__about_img_2">
-                <img src="images/about_img_3.jpg" alt="ZYAN" class="img-fluid w-100">
+                <img src="5 static 'app/images/about_img_3.jpg'%" alt="ZYAN" class="img-fluid w-100">
                 <div class="tf__about_img_text">
                   <i class="fa-sharp fa-solid fa-award"></i>
                   <h4>13+ <span>Лет опыт в сфере маркетинга</span></h4>
@@ -251,7 +252,7 @@
           <div class="col-xxl-4 col-lg-6 col-xl-6">
             <div class="tf__about_img fade_right" data-trigerId="about">
               <img
-                src="images/about_img.jpg"
+                src="% static 'app/images/about_img.jpg'%"
                 alt="ZYAN"
                 class="img-fluid w-100"
               />
@@ -404,6 +405,37 @@
         }
     </style>
 </head>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      const preloader = document.getElementById('preloader');
+
+      function hidePreloader() {
+          preloader.classList.add('fade');
+          setTimeout(function() {
+              preloader.style.display = 'none';
+          }, 1000); 
+      }
+      function autoScroll() {
+          const targetScrollPosition = 1655;
+          const scrollStep = 5; 
+          let currentScrollPosition = 0;
+
+          function scroll() {
+              if (currentScrollPosition < targetScrollPosition) {
+                  window.scrollBy(0, scrollStep);
+                  currentScrollPosition += scrollStep;
+                  requestAnimationFrame(scroll);
+              } else {
+                  hidePreloader(); 
+              }
+          }
+
+          scroll();
+      }
+      autoScroll();
+  });
+</script>
+
 <body>
     <div class="container">
         <div class="header">Маркетинг поможет везде и в любом случае</div>
@@ -619,7 +651,7 @@
               <div class="tf__single_service_2 fade_left" data-trigerId="service">
                 <div class="text">
                   <span>
-                    <img src="svg/mobile-programming.svg" alt="service" class="img-fluid w-100 svg">
+                    <img src="%static 'app/svg/mobile-programming.svg'%" alt="service" class="img-fluid w-100 svg">
                     <i class="icon-app-development"></i>
                   </span>
                   <h3>Быстрое Обучение</h3>
@@ -634,7 +666,7 @@
               <div class="tf__single_service_2 fade_left active" data-trigerId="service">
                 <div class="text">
                   <span>
-                    <img src="svg/pen-tool-2.svg" alt="service" class="img-fluid w-100 svg">
+                    <img src="5 static 'app/svg/pen-tool-2.svg'%" alt="service" class="img-fluid w-100 svg">
                   </span>
                   <h3>Гарантия качественного обучения</h3>
                   <p>
@@ -648,7 +680,7 @@
               <div class="tf__single_service_2 fade_left" data-trigerId="service">
                 <div class="text">
                   <span>
-                    <img src="svg/mobile.svg" alt="service" class="img-fluid w-100 svg">
+                    <img src="% static 'app/svg/mobile.svg'%" alt="service" class="img-fluid w-100 svg">
                   </span>
                   <h3>Успех долгосрочной карьеры</h3>
                   <p>
@@ -682,7 +714,7 @@
             <div class="tf__single_testimonial">
               <div class="img">
                 <img
-                  src="images/testimonial/1.jpg"
+                  src="% static 'app/images/testimonial/1.jpg'%"
                   alt="clients"
                   class="img-fluid w-100"
                 />
@@ -705,7 +737,7 @@
             <div class="tf__single_testimonial">
               <div class="img">
                 <img
-                  src="images/testimonial/2.jpg"
+                  src="% static 'app/images/testimonial/2.jpg'%"
                   alt="clients"
                   class="img-fluid w-100"
                 />
@@ -728,7 +760,7 @@
             <div class="tf__single_testimonial">
               <div class="img">
                 <img
-                  src="images/testimonial/3.jpg"
+                  src="% static 'app/images/testimonial/3.jpg'%"
                   alt="clients"
                   class="img-fluid w-100"
                 />
@@ -771,7 +803,7 @@
           <div class="row">
             <div class="col-xl-6 col-sm-6">
               <div class="tf__portfolio_item">
-                <img src="images/portfolio/5.png" alt="portfolio" class="img-fluid w-100">
+                <img src="% static 'app/images/portfolio/5.png'%" alt="portfolio" class="img-fluid w-100">
                 <div class="text">
                   <h4>Стулия черного цвета</h4>
                   <p> 4000 сом</p>
@@ -780,14 +812,14 @@
               <div class="mfp-fade mfp-hide" id="details-popup">
                 <div class="content">
                   <div class="img">
-                    <img src="images/portfolio/5.png" alt="">
+                    <img src="5 static 'app/images/portfolio/5.png'%" alt="">
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-xl-6 col-sm-6">
               <div class="tf__portfolio_item">
-                <img src="images/portfolio/6.png" alt="portfolio" class="img-fluid w-100">
+                <img src="5 static 'app/images/portfolio/6.png'%" alt="portfolio" class="img-fluid w-100">
                 <div class="text">
                   <h4>Macbook</h4>
                   <p> 189000 сом </p>
@@ -796,14 +828,14 @@
               <div class="mfp-fade mfp-hide" id="details-popup">
                 <div class="content">
                   <div class="img">
-                    <img src="images/portfolio/6.png" alt="">
+                    <img src="% static'app/images/portfolio/6.png'%" alt="">
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-xl-4 col-sm-6">
               <div class="tf__portfolio_item">
-                <img src="images/portfolio/7.png" alt="portfolio" class="img-fluid w-100">
+                <img src="% static'app/images/portfolio/7.png'%" alt="portfolio" class="img-fluid w-100">
                 <div class="text">
                   <h4>Стол черного цвета</h4>
                   <p> 7000 сом </p>
@@ -812,14 +844,14 @@
               <div class="mfp-fade mfp-hide" id="details-popup">
                 <div class="content">
                   <div class="img">
-                    <img src="images/portfolio/7.png" alt="">
+                    <img src="% static'app/images/portfolio/7.png'%" alt="">
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-xl-4 col-sm-6">
               <div class="tf__portfolio_item">
-                <img src="images/portfolio/8.png" alt="portfolio" class="img-fluid w-100">
+                <img src="% static'app/images/portfolio/8.png'%" alt="portfolio" class="img-fluid w-100">
                 <div class="text">
                   <h4>Рабочий стол</h4>
                   <p> 15000 сом </p>
@@ -828,14 +860,14 @@
               <div class="mfp-fade mfp-hide" id="details-popup">
                 <div class="content">
                   <div class="img">
-                    <img src="images/portfolio/8.png" alt="">
+                    <img src="% static'app/images/portfolio/8.png'%" alt="">
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-xl-4 col-sm-6">
               <div class="tf__portfolio_item">
-                <img src="images/portfolio/9.png" alt="portfolio" class="img-fluid w-100">
+                <img src="% static'app/images/portfolio/9.png'%" alt="portfolio" class="img-fluid w-100">
                 <div class="text">
                   <h4>Одно комнатный квартира</h4>
                   <p> 3 828000 сом </p>
@@ -844,7 +876,7 @@
               <div class="mfp-fade mfp-hide" id="details-popup">
                 <div class="content">
                   <div class="img">
-                    <img src="images/portfolio/9.png" alt="">
+                    <img src="% static'app/images/portfolio/9.png'%" alt="">
                   </div>
                 </div>
               </div>
@@ -869,7 +901,7 @@
                   <div class="col-xl-4 col-md-6">
                     <div class="tf__slingle_blog_2 fade_left" data-trigerId="blog">
                       <div class="tf__blog_img_2">
-                        <img src="images/blog/4.jpg" alt="blog" class="img-fluid w-100">
+                        <img src="% static 'app/images/blog/4.jpg'%" alt="blog" class="img-fluid w-100">
                         <span>10 June</span>
                       </div>
                       <div class="tf__blog_text_2">
@@ -884,7 +916,7 @@
                   <div class="col-xl-4 col-md-6">
                     <div class="tf__slingle_blog_2 fade_left" data-trigerId="blog">
                       <div class="tf__blog_img_2">
-                        <img src="images/blog/5.jpg" alt="blog" class="img-fluid w-100">
+                        <img src="% static 'app/images/blog/5.jpg'%" alt="blog" class="img-fluid w-100">
                         <span>10 June</span>
                       </div>
                       <div class="tf__blog_text_2">
@@ -900,7 +932,7 @@
                   <div class="col-xl-4 col-md-6">
                     <div class="tf__slingle_blog_2 fade_left" data-trigerId="blog">
                       <div class="tf__blog_img_2">
-                        <img src="images/blog/6.jpg" alt="blog" class="img-fluid w-100">
+                        <img src="% static 'app/images/blog/6.jpg'%" alt="blog" class="img-fluid w-100">
                         <span>10 June</span>
                       </div>
                       <div class="tf__blog_text_2">
@@ -929,7 +961,7 @@
             <div class="col-xl-4 col-md-6 col-lg-4">
               <div class="tf__contact_2_text fade_left" data-trigerId="contact">
                 <span>
-                  <img src="svg/voice_phone.svg" alt="contact" class="img-fluid w-100 svg">
+                  <img src="% static 'app/svg/voice_phone.svg'%" alt="contact" class="img-fluid w-100 svg">
                 </span>
                 <h3>Номер телефона</h3>
                 <p>
@@ -941,7 +973,7 @@
             <div class="col-xl-4 col-md-6 col-lg-4">
               <div class="tf__contact_2_text fade_left" data-trigerId="contact">
                 <span>
-                  <img src="svg/map_issue.svg" alt="contact" class="img-fluid w-100 svg">
+                  <img src="% static 'app/svg/map_issue.svg'%" alt="contact" class="img-fluid w-100 svg">
                 </span>
                 <h3>Локация</h3>
                 <p>
@@ -953,7 +985,7 @@
             <div class="col-xl-4 col-md-6 col-lg-4">
               <div class="tf__contact_2_text fade_left" data-trigerId="contact">
                 <span>
-                  <img src="svg/send_mail.svg" alt="contact" class="img-fluid w-100 svg">
+                  <img src="% static 'app/svg/send_mail.svg'%" alt="contact" class="img-fluid w-100 svg">
                 </span>
                 <h3>Рабочий график</h3>
                 <p>
@@ -972,7 +1004,7 @@
               <!--================================
                 КОНТАКТ 2 START
             =================================-->
-        <section id="contact" class="tf__contact_2 pt_95 xs_pt_45">
+        <!-- <section id="contact" class="tf__contact_2 pt_95 xs_pt_45">
           <div class="container">
             <div class="row animation">
               <div class="col-xl-4 col-md-6 col-lg-4">
@@ -1004,10 +1036,132 @@
               </form>
             </div>
           </div>
-        </section>
+        </section> -->
+        
         <!--================================
                 КОНТАКТ 2 END
             =================================-->
+
+      <!-- 
+            ВОЙТИ START
+      -->
+      <section id="contact" class="tf__contact_2 pt_95 xs_pt_45">
+        <div class="container">
+          <div class="row animation">
+            <div class="col-xl-4 col-md-6 col-lg-4">
+              <!-- Кнопка для открытия модального окна -->
+              <button id="openModalBtn">Войти</button>
+            </div>
+          </div>
+          <div class="contact_form_2">
+            <form id="contactForm">
+              <div class="row">
+                <div class="col-lg-6">
+                  <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="col-lg-6">
+                  <input type="text" placeholder="Ваша Фамилия" required>
+                </div>
+                <div class="col-lg-12">
+                  <input type="email" placeholder="Email" required>
+                </div>
+                <div class="col-12">
+                  <textarea rows="5" placeholder="О вас" required></textarea>
+                </div>
+              </div>
+              <button type="submit">Отправить</button>
+            </form>
+          </div>
+      
+          <!-- Модальное окно для формы регистрации -->
+          <div id="modal" style="display:none;">
+            <div id="modalContent">
+              <span id="closeModalBtn">&times;</span>
+              <h2>Регистрация</h2>
+              <form id="registrationForm">
+                <input type="text" placeholder="Логин" required><br>
+                <input type="password" placeholder="Пароль" required><br>
+                <input type="text" placeholder="Telegram" required><br>
+                <button type="submit">Зарегистрироваться</button>
+              </form>
+            </div>
+          </div>
+      
+          <!-- Успешное сообщение -->
+          <div id="successMessage" style="display:none;">
+            <p>Успешно отправлено!</p>
+          </div>
+      
+        </div>
+      </section>
+      
+      <script>
+        // Открытие модального окна
+        document.getElementById('openModalBtn').onclick = function() {
+          document.getElementById('modal').style.display = 'block';
+        };
+      
+        // Закрытие модального окна
+        document.getElementById('closeModalBtn').onclick = function() {
+          document.getElementById('modal').style.display = 'none';
+        };
+      
+        // Закрытие модального окна при клике вне его области
+        window.onclick = function(event) {
+          if (event.target == document.getElementById('modal')) {
+            document.getElementById('modal').style.display = 'none';
+          }
+        };
+      
+        // Обработка отправки контактной формы
+        document.getElementById('contactForm').onsubmit = function(event) {
+          event.preventDefault(); // Предотвращаем стандартное отправление формы
+          document.getElementById('successMessage').style.display = 'block'; // Показываем сообщение об успешной отправке
+          setTimeout(function() {
+            document.getElementById('successMessage').style.display = 'none'; // Скрываем сообщение через 3 секунды
+          }, 3000);
+        };
+      </script>
+      
+      <style>
+        #modal {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.5);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      
+        #modalContent {
+          background-color: white;
+          padding: 20px;
+          border-radius: 5px;
+          width: 300px;
+          text-align: center;
+        }
+      
+        #closeModalBtn {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          font-size: 20px;
+          cursor: pointer;
+        }
+      
+        #successMessage {
+          background-color: #4CAF50;
+          color: white;
+          padding: 10px;
+          text-align: center;
+          border-radius: 5px;
+          margin-top: 20px;
+        }
+      </style>
+      
 
       <!--================================
                 НИЖНИЙ ФОТЕР  START
@@ -1060,29 +1214,29 @@
     </div>
   </div>
 
-  <script src="js/plugin.js"></script>
+  <script src="% static 'app/js/plugin.js'%"></script>
   <!--scroll button js-->
-  <script src="js/scroll_button.js"></script>
+  <script src="% static 'app/js/scroll_button.js'%"></script>
   <!--sticky sidebar js-->
-  <script src="js/sticky_sidebar.js"></script>
+  <script src="% static 'app/js/sticky_sidebar.js'%"></script>
   <!-- Gsap -->
-  <script src="js/animation.js"></script>
+  <script src="% static 'app/js/animation.js'%"></script>
   <!--main/custom js-->
-  <script src="js/main.js"></script>
+  <script src="% static 'app/js/main.js'%"></script>
   <!DOCTYPE html>
   <html lang="en">
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Ош ZYAN маркетинг</title>
-      <link rel="icon" type="image/png" href="images/favicon.png">
-      <link rel="stylesheet" href="css/font-awesome-pro.css">
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/scroll_button.css">
-      <link rel="stylesheet" href="css/spacing.css">
-      <link rel="stylesheet" href="css/plugin.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="icon" type="image/png" href="5 static 'app/images/favicon.png'%">
+      <link rel="stylesheet" href="5 static 'app/css/font-awesome-pro.css'%">
+      <link rel="stylesheet" href="5 static 'app/css/bootstrap.min.css'%">
+      <link rel="stylesheet" href="5 static 'app/css/scroll_button.css'%">
+      <link rel="stylesheet" href="5 static 'app/css/spacing.css'%">
+      <link rel="stylesheet" href="5 static 'app/css/plugin.css'%">
+      <link rel="stylesheet" href="5 static 'app/css/style.css'%">
+      <link rel="stylesheet" href="5 static 'app/css/responsive.css'%">
       <style>
           .welcome-popup {
               position: fixed;
@@ -1097,7 +1251,7 @@
               width: 300px;
               opacity: 0;
               transition: transform 0.5s, opacity 0.5s;
-              z-index: 9999; /* Ensure the popup is above other content */
+              z-index: 9999; 
           }
           .welcome-popup.show {
               transform: translate(-50%, -50%) scale(1);
@@ -1113,13 +1267,12 @@
               color: #000;
           }
           .welcome-popup #username {
-              color: #000; /* Ensure the username is also black */
+              color: #000; 
           }
       </style>
   </head>
   <body class="home_2">
   
-      <!-- Приветственное всплывающее окно -->
       <div class="welcome-popup" id="welcomePopup">
           <h1>Добро пожаловать!</h1>
           <p id="welcomeMessage"> <span id="username"></span></p>
@@ -1133,25 +1286,21 @@
               } else {
                   document.getElementById('welcomeMessage').textContent = "Здравствуй!";
               }
-  
-              // Показывать всплывающее окно приветствия после небольшой задержки
+
               setTimeout(function() {
                   const popup = document.getElementById('welcomePopup');
                   popup.classList.add('show');
-                  
-                  // Скрыть всплывающее окно приветствия через 3 секунды
+
                   setTimeout(function() {
                       popup.classList.remove('show');
-                  }, 3000); // Продолжительность видимости всплывающего окна
-              }, 500); // Задержку отображения всплывающего окна можно настроить.
-  
-              // При необходимости очистите локальное хранилище после использования.
+                  }, 3000); 
+              }, 500); 
               localStorage.removeItem('username');
           });
       </script>
     </body>
   </html>
-  
+
 </body>
 
 </html>
